@@ -66,7 +66,8 @@ h1 {
 .selectores {
  	position:absolute;
  	top: 415px;
- 	left: 560px; 
+ 	left: 560px;
+ 	list-style-type: none; 
 }
 .selectores div {
 	background: white;
@@ -85,6 +86,7 @@ h1 {
 	cursor: pointer;
     color:white;
     padding: 3px;
+
     
 }
 
@@ -102,7 +104,7 @@ h1 {
 
 .controles {
 	position: absolute;
-	cursor:pointer;
+	cursor: pointer;
 	width: 66px; height: 66px;
 	transition: opacity 1s;
 	-webkit-transition: opacity 1s;
