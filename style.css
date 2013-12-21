@@ -1,0 +1,127 @@
+body {
+	font-size:14px; 
+	font-family:arial;
+}
+
+h1 {
+	font-size: 80px;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 5px grey;
+}
+.titulo a {
+	position: absolute;
+	left: 600px;
+	top: 120px;
+	font-size: 15px;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 5px grey;
+	transition: font-size 0.3s;
+	-webkit-transition: font-size 0.3s;
+}
+
+.titulo a:hover {
+	font-size: 25px;
+	
+}
+
+.carousel {
+	margin-left: 250px;
+	padding-top: 20px;
+}
+.slides { 
+	float: left;
+	margin: 40px;
+	width: 800px;
+	height: 266px;
+	overflow: hidden;
+
+ }
+
+.imagenes {
+	position: relative;
+	top:0px;
+	left:0px;
+
+}
+
+.imagenes li {
+	position:absolute;
+	top:0px;
+	left:0px;
+	list-style: none;
+	
+}
+
+.imagenes img {
+	width:794px;
+	height:260px;
+	border: 1px solid grey;
+	padding: 3px;
+	border-radius: 4px;
+	box-shadow: 1px 1px 5px grey;
+}
+
+.selectores {
+ 	position:absolute;
+ 	top: 415px;
+ 	left: 560px; 
+}
+.selectores div {
+	background: white;
+	border-radius: 5px;
+	width: 12px;
+	height: 12px;
+	transition: background 0.5s;
+	-webkit-transition: background 0.5s;
+}
+
+
+.selectores li { 
+	float:left;
+	margin:0 0px;
+	font: bold 100px;
+	cursor: pointer;
+    color:white;
+    padding: 3px;
+    
+}
+
+.selectores div:hover {
+	background: grey;
+
+}
+
+.selectores li.seleccionado {
+	background-color:grey;
+	border-radius: 8px;
+	color:#000;
+	opacity: 0.4;
+}
+
+.controles {
+	position: absolute;
+	cursor:pointer;
+	width: 66px; height: 66px;
+	transition: opacity 1s;
+	-webkit-transition: opacity 1s;
+}
+
+.controles:hover {
+	opacity: 0.5;
+}
+
+.prev {
+	left: 269px;
+	top: 300px;
+	opacity: 0.2;
+	background: url(images/left.png);
+}
+
+.next {
+	left: 983px;
+	top: 300px;
+	opacity: 0.1;
+	background: url(images/rigth.png);
+}
