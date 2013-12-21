@@ -1,0 +1,4 @@
+Reybin.JS.Slider
+================
+
+.:: Slider ::.
