@@ -1,21 +1,22 @@
 body {
 	font-size:14px; 
 	font-family:arial;
+	background: url(images/background.gif) repeat;
 }
 
 h1 {
 	font-size: 80px;
 	text-align: center;
-	color: white;
-	text-shadow: 1px 1px 5px grey;
+	color: #201D19;
+	text-shadow: 1px 1px 6px grey;
 }
 .titulo a {
 	position: absolute;
 	left: 600px;
 	top: 120px;
-	font-size: 15px;
+	font-size: 18px;
 	text-align: center;
-	color: white;
+	color: #201D19;
 	text-shadow: 1px 1px 5px grey;
 	transition: font-size 0.3s;
 	-webkit-transition: font-size 0.3s;
@@ -27,14 +28,12 @@ h1 {
 }
 
 .carousel {
-	margin-left: 250px;
+	margin-left: 270px;
 	padding-top: 20px;
 }
 .slides { 
 	float: left;
 	margin: 40px;
-	width: 800px;
-	height: 266px;
 	overflow: hidden;
 
  }
@@ -55,25 +54,29 @@ h1 {
 }
 
 .imagenes img {
-	width:794px;
-	height:260px;
-	border: 1px solid grey;
-	padding: 3px;
-	border-radius: 4px;
-	box-shadow: 1px 1px 5px grey;
+	width:800px;
+	height:350px;
+	border: 2px solid;
+	border-bottom-color: #0E0D0A;
+	border-top-color: #4B4636;
+	border-left: none;
+	border-right: none;
+	border-radius: 5px;
+	box-shadow: 0px 0px 8px #3C372F;
 }
 
 .selectores {
  	position:absolute;
- 	top: 415px;
+ 	top: 500px;
  	left: 560px;
  	list-style-type: none; 
 }
 .selectores div {
 	background: white;
-	border-radius: 5px;
-	width: 12px;
-	height: 12px;
+	border-radius: 6px;
+	border-bottom: 1px solid black;
+	width: 14px;
+	height: 14px;
 	transition: background 0.5s;
 	-webkit-transition: background 0.5s;
 }
@@ -84,7 +87,7 @@ h1 {
 	margin:0 0px;
 	font: bold 100px;
 	cursor: pointer;
-    color:white;
+    color:grey;
     padding: 3px;
 
     
@@ -96,10 +99,10 @@ h1 {
 }
 
 .selectores li.seleccionado {
-	background-color:grey;
+	background-color: grey;
 	border-radius: 8px;
 	color:#000;
-	opacity: 0.4;
+	opacity: 0.3;
 }
 
 .controles {
@@ -115,15 +118,15 @@ h1 {
 }
 
 .prev {
-	left: 269px;
-	top: 300px;
-	opacity: 0.2;
+	left: 210px;
+	top: 320px;
+	opacity: 0.07;
 	background: url(images/left.png);
 }
 
 .next {
-	left: 983px;
-	top: 300px;
-	opacity: 0.1;
+	left: 1081px;
+	top: 320px;
+	opacity: 0.07;
 	background: url(images/rigth.png);
 }
