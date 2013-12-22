@@ -1,8 +1,8 @@
 Reybin.JS.Slider
 ================
 
-.:: Slider ::.
+.:: Slider ::.  http://reybin.github.io/Reybin.JS.Slider
 ==============    
                   
-                  http://reybin.github.io/Reybin.JS.Slider/
+                  
                   
